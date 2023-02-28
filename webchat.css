@@ -1,3 +1,100 @@
-* {
-/*   background-color: red; */
+body {
+     font-size: 14px;
+}
+ .bpw-chat-container {
+     border: 0.5px solid #b6b6b6;
+     border-radius: 8px;
+     overflow: hidden;
+}
+ .bpw-header-container {
+     border-top:none;
+}
+ .bpw-header-container {
+     padding-left:0.5rem 
+}
+ #btn-delete-conversation {
+     display:none;
+}
+ #btn-download {
+     display:none;
+}
+ .bpw-widget-btn {
+     border-radius:50%;
+}
+ .bpw-from-user .bpw-chat-bubble > div{
+     border-radius: 12px;
+     border-bottom-right-radius: 4px;
+}
+ .bpw-from-bot .bpw-chat-bubble.bpw-bubble-text > div{
+     border-radius: 12px;
+     border-bottom-left-radius: 4px;
+}
+ .bpw-header-title {
+     font-size : 16px;
+}
+ .bpw-keyboard-quick_reply{
+     background-color: transparent;
+     padding: 0;
+     text-align: left;
+     border-top: none;
+     padding-left: 0.5rem;
+     padding-bottom:10px;
+}
+ .bpw-keyboard-quick_reply button {
+     padding: 6px 8px;
+     background-color: var(--main-bg-color);
+     font-size: 12px;
+     min-width: initial;
+     min-height: initial;
+     text-align: center;
+     border: 1px solid currentColor;
+     border-radius: 12px;
+     cursor: pointer;
+     margin: 3px 2px;
+     text-transform: none;
+     overflow: visible;
+     color: #000;
+     background: #f4f4f5;
+     border: 1px solid #d4d4d8;
+     border-top-width: 1px;
+     border-right-width: 1px;
+     border-bottom-width: 1px;
+     border-left-width: 1px;
+     border-top-style: solid;
+     border-right-style: solid;
+     border-bottom-style: solid;
+     border-left-style: solid;
+     border-top-color: rgb(212, 212, 216);
+     border-right-color: rgb(212, 212, 216);
+     border-bottom-color: rgb(212, 212, 216);
+     border-left-color: rgb(212, 212, 216);
+     border-image-source: initial;
+     border-image-slice: initial;
+     border-image-width: initial;
+     border-image-outset: initial;
+     border-image-repeat: initial;
+     border-radius: 12px;
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+     border-bottom-right-radius: 12px;
+     border-bottom-left-radius: 12px;
+     padding: 6px 8px;
+}
+
+.bpw-bot-avatar img {
+  height:30px;
+  width:30px;
+}
+
+.bpw-header-icon svg { 
+  height: 12px;
+  width: 12px;
+}
+
+.bpw-composer {
+  padding-bottom:0;
+}
+
+.bpw-composer textarea{
+  font-size:14px;
 }
