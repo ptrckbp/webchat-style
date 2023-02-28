@@ -98,3 +98,7 @@ body {
 .bpw-composer textarea{
   font-size:14px;
 }
+
+.bpw-send-button {
+  margin-bottom: 0.5rem;
+}
